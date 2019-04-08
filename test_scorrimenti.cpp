@@ -7,7 +7,6 @@
 //============================================================================
 
 #include <iostream>
-
 using namespace std;
 
 void scorriV(int x[], int dim1, int dim2, int dim3) {
