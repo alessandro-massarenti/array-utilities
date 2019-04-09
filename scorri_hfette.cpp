@@ -6,6 +6,7 @@ void scorriH(int x[], int dim1, int dim2, int dim3) {
             for (int k = 0; k < dim3; k++) {
                 cout << *(x + k + (j * dim2 * dim3) + (i * dim3)) << " ";
             }
+            //POST : Viene scorsa la riga della fetta
             cout << endl;
         }
         cout << endl;
