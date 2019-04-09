@@ -1,4 +1,9 @@
-void scorriSP(int x[],int dim1,int dim2,int dim3){
+//---------------------------------------------------------
+//Questa funzione stampa per strati un array a 3 dimensioni
+//---------------------------------------------------------
+
+// PRE = (dim1 dim2 e dim3 denotano le dimensioni di un array sono completamente pieno)
+void scorriSP(int x[],int dim1,int dim2,int dim3){ 
 	
 	//PRE=(dim1 è esattamente il numero di strati)
 	for(int i=0;i<dim1; i++){
@@ -18,3 +23,4 @@ void scorriSP(int x[],int dim1,int dim2,int dim3){
 	}
 	//POST=(sono stati scorsi tutti gli strati indicati da dim1, i=dim1)
 }
+//POST=(sono stati scorsi tutti gli strati indicati da dim1, i=dim1)
