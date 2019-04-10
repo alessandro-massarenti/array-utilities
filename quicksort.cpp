@@ -23,12 +23,7 @@ void quicksort(int *a, int start,int pivot)    // pass  0 , sizeof(a)/sizeof(*a)
          startIndex++;
          endIndex--;
      }
-
-
-
-
-    }
-
+   }
    if(start<endIndex) quicksort(a,start,endIndex);
    if(startIndex<pivot) quicksort(a,startIndex,pivot);
 
@@ -39,10 +34,7 @@ void fillarray(int *a,int size) //fills the array with a random number between 1
     for(int i = 0;i<size;i++)
     {
         a[i] = rand()%100;
-
     }
-
-
 }
 
 //this is just to test the sort
@@ -58,16 +50,13 @@ int main()
     for(int i=0; i < size;i++)
     {
         cout<<A[i]<<" ";
-
     }
     cout<<"\n"<<"\n"<<"\n"<<"ordered array"<<endl;
     quicksort(A,0,size-1);
     for(int i=0; i < size;i++)
     {
         cout<<A[i]<<" ";
-
     }
-
 
 return 0;
 }
