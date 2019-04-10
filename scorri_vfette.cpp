@@ -17,3 +17,4 @@ void scorriV(int x[],int dim1,int dim2,int dim3){
 	}
 	//POST=(sono state scorse tutte le V-fette dell'intero array)
 }
+//POST=(sono state scorse tutte le V-fette dell'intero array)
